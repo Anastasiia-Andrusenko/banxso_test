@@ -19,7 +19,6 @@ const images = [
   { src: require('../../img/img.webp'), caption: 'Lorem ipsum' },
   { src: require('../../img/img.webp'), caption: 'Lorem ipsum' },
   { src: require('../../img/img.webp'), caption: 'Lorem ipsum' },
-  { src: require('../../img/img.webp'), caption: 'Lorem ipsum' },
 ];
 
 const Gallery = () => {

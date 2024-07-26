@@ -25,14 +25,11 @@
   position: relative;
   border-radius: 45px;
   background: #191a23;
-  padding: 48px 0px;
+  padding: 43px 0 48px 0;
 }
 
 .swiper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 48px;
+  padding: 5px 10px 32px 10px;
   filter: drop-shadow(0px 1px 10px rgba(0, 0, 0, 0.1));
 }
 
@@ -46,12 +43,13 @@
   gap: 12px;
   border-radius: 12px;
   background: #fff;
-  margin: 0;
+  margin-right: 48px !important;
   transition: transform 250ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .swiperSlide:hover {
   transform: scale(1.02);
+  border: 1px solid #ff9600;
   box-shadow: 0px 5px 0px 0px #ff9600;
 }
 
@@ -128,7 +126,6 @@
   display: flex;
   justify-content: center;
   gap: 8px;
-  margin-top: 32px;
 }
 
 .paginationBullet {
